@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    overflow: hidden;
+}
+header {
+    width: 100vw;
+    height: 50px;
+    background-color: #607d8b;
+}
+
+.hamburger-container {
+    position: fixed;
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 100%;
+}
+
+.hamburger-container .hamburger {
+    width: 40px;
+    margin-bottom: 7px;
+    height: 5px;
+    background-color: white;
+
+}
+
+.din-dag {
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 10px;
+}
+
+header h1 {
+    color: white;
+    font-family: Verdana;
+    font-weight: 100;
+}
+
+.din-dag h1{
+    font-family: Verdana;
+    font-weight: 100;
+    color: #607d8b;
+}
+
+.din-dag .main-grid{
+    width: 175px;
+    height: 520px;
+    border: 1px solid #607d8b1f;
+}
+
+.din-dag .main-grid .grid{
+    width: 175px;
+    height: 50px;
+    border: 1px solid #607d8b1f;
+}
+
+.din-dag .lesson{
+    position: relative;
+    left: 0px;
+    width: 177px;
+    height: 50px;
+    background-color: #bbdefb;
+}
+.din-dag .lesson .lesson-title {
+    margin-top: 5px;
+    margin-left: 5px;
+    color: #2962FF;
+}
+
+.meddelanden {
+    position: absolute;
+    top: 70px;
+    left: 300px;
+    font-size: 10px;
+}
+.meddelanden h1{
+    font-family: Verdana;
+    font-weight: 100;
+    color: #607d8b;
+}
+.meddelanden .meddelande header {
+    width: 50vw;
+    height: 50px;
+    background-color: #607d8b;
+}
+.meddelanden .meddelande .body {
+    width: 50vw;
+    height: 50px;
+    background-color: #f0faff;
+}
